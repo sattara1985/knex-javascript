@@ -68,7 +68,7 @@ Este creará el archivo ``knexfile.js`` en la raíz de nuestro proyecto, donde t
     - En preparación: Staging.
     - Producción: Production.
 
-3. Agregar la configuración para desarrollo porque es lo que estamos haciendo ahora:
+3. Agregar la configuración para desarrollo porque es lo que estamos haciendo ahora: se debe crear la base de datos
 
     ```
     development: {
