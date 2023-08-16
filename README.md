@@ -96,7 +96,7 @@ Este creará el archivo ``knexfile.js`` en la raíz de nuestro proyecto, donde t
     - Por ejemplo, yo quiero crear la entidad cliente,
         - `knex migrate:make nombreTabla`
         - `knex migrate:make cliente`
-
+            - la en la parte de knex_migrations se puede con && crear cuantas tablas se quiera
             - Nota: Si tu hiciste una instalación local para poder correr el comando, requieres agregarlo a un script en el package.json:
             - Vamos al package.json
             - Agregamos un script:
